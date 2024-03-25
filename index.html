@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="E-Commerce Website for mobiles,laptops and other electronics gadgets."/>
+        <meta name="keywords" content="E-Commerce,mobiles,laptops,electronic gadgets,html,css,js,php,mysql"/>
+        <meta name="author" content="Lalith"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/e-commerce logo white.png" type="image/x-icon">
+
+        <!-- --------------Icon pack links----------- -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+        <title>LK Tech Hub</title>
+    </head>
+
+    <body>
+
+        <div>
+            <img width="50" height="50" src="https://img.icons8.com/material-sharp/50/collapse-arrow.png" alt="collapse-arrow" onclick="topFunction()" id="myBtn"/>
+        </div>
+        
+        <div class="header" id="home">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="assets/e-commerce logo white.png" alt="logo-image" height="60px" width="100px">
+                    </div>
+                    <div class="menu" id="menu-items">
+                            <a href="#home">Home</a>
+                            <a href="#product">Products</a>
+                            <a href="#about">About</a>
+                            <a href="#contact">Contact</a>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-cart'></i>
+                        <i class='bx bx-menu' class="menu" id="menu-items"></i>
+                    </div>
+                </nav>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <h1 class="text-white">Introducing All New<br> Apple Vision Pro</h1>
+                        <p>Apple Vision Pro is Apple's first 3D camera. You can capture magical spatial photos and spatial videos in 3D, 
+                            then relive those cherished moments like never before with immersive Spatial Audio. Your existing library of photos 
+                            and videos looks incredible at remarkable scale.
+                        </p>
+                        
+                        <a href="#" class="btn btn-main">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/vision pro.png" alt="banner-image" class="center">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Offer products -->
+        <div id="product" class="small-container mt-5">
+            <h2 class="title">Offer Products</h2>
+
+            <div class="row horizontal-scroll-wrapper squares">
+
+                <div class="col-4 box-container">
+                    <img src="assets/iphone 15 pro.jpg" alt="iphone-15-pro">
+                    <h5 class="product_name">iPhone 15 pro</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 89,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/macbook pro.png" alt="macbook pro">
+                    <h5 class="product_name">MacBook Pro</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 1,20,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/ipad pro.jpeg" alt="iPad pro">
+                    <h5 class="product_name">iPad Pro</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 1,09,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/watch ultra.png" alt="watch ultre">
+                    <h5 class="product_name">Watch Ultra</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 79,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+            </div>
+
+            <!-- Other products -->
+            <h2 class="title">Other Products</h2>
+            <div class="row">
+                <div class="col-4 box-container">
+                    <img src="assets/iphone 15.jpg" alt="iphone 15">
+                    <h5 class="product_name">iPhone 15</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 52,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/iphone-15-plus.jpeg" alt="iphone 15 plus">
+                    <h5 class="product_name">iPhone 15 Plus</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 69,990</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/iphone-15-pro-max.jpeg" alt="iphone 15 pro max">
+                    <h5 class="product_name">iPhone 15 Pro Max</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 99,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/macbook air.png" alt="MacBook Air">
+                    <h5 class="product_name">MacBook Air</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 94,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/watch.png" alt="Watch series 8">
+                    <h5 class="product_name">Watch series 8</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 27,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/watch se.png" alt="Watch SE">
+                    <h5 class="product_name">Watch SE</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 22,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/ipad air.jpeg" alt="iPad Air">
+                    <h5 class="product_name">iPad Air</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 67,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/ipad.jpeg" alt="iPad">
+                    <h5 class="product_name">Ipad gen 10</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 51,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/ipad mini.jpeg" alt="ipad mini">
+                    <h5 class="product_name">Ipad Mini</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 32,500</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/airpod gen1.jpeg" alt="Airpods">
+                    <h5 class="product_name">Airpods</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 12,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>                    
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/airpod gen2.jpeg" alt="Airpods gen 2">
+                    <h5 class="product_name">Airpods gen 2</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name">Rs 28,900</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/airpod gen3.jpeg" alt="Airpods pro">
+                    <h5 class="product_name">Airpods Pro</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 31,500</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/airpod max.jpeg" alt="Airpods max">
+                    <h5 class="product_name">Airpods Max</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name">Rs 43,500</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/earpod.jpeg" alt="Earpods">
+                    <h5 class="product_name">Earpods</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/homepod.png" alt="homepod">
+                    <h5 class="product_name">Homepod</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 23,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/homepod-mini.png" alt="homepod mini">
+                    <h5 class="product_name">Homepod Mini</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 18,900</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer Banner-->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="assets/imac.png" alt="imac">
+                    </div>
+                    <div class="col-6 text-data text-white">
+                        <p>Top Prodcuts you should Buy</p>
+                        <h1>Limited offers on iMac!</h1>
+                        
+                        <a href="#" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accessoires products -->
+        <div class="small-container mt-5">
+            <h2 class="title">Accessoires</h2>
+            <div class="row">
+                <div class="col-4 box-container">
+                    <img src="assets/mac sudio.jpeg" alt="Mac Studio">
+                    <h5 class="product_name">Mac Studio</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 52,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/magic studio.png" alt="Sudio Dispaly">
+                    <h5 class="product_name">Studio Display</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 38,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/apple pencil.png" alt="pencil">
+                    <h5 class="product_name">Magic Pencil</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 14,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/magic keyboard.png" alt="keyboard">
+                    <h5 class="product_name">iPad Keyboard</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name">Rs 24,000</p>
+                    <div class="btn btn-secondary"> Buy now</div> 
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/magic mouse.png" alt="mouse">
+                    <h5 class="product_name">Magic Mouse</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 18,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/magic track pad.png" alt="track pad">
+                    <h5 class="product_name">Magic Track Pad</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 15,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/magic keyboard pc.png" alt="Keyboard">
+                    <h5 class="product_name">Magic Keyboard</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 28,000</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="assets/airtag.png" alt="Airtag">
+                    <h5 class="product_name">Airtag</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 8,999</p>
+                    <div class="btn btn-secondary"> Buy now</div>  
+                    <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i> </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about -->
+        <div class="about" id="about">
+            <h1><em>About</em></h1>
+            <p><strong><em>LK Tech Hub</em></strong></p>
+            <div class="about-content">
+                <p>We are India's Local Apple Expert and one-stop shop for everything related to Apple, from iPhone, MacBook, iPad,
+                     Apple Watch, AirPods, HomePods, and other Apple accessories.</p>
+                <p>Established in 2022 with one store and five staff in chennai, LK Tech Hub has become the go-to destination for 
+                    Apple enthusiasts across the country. With 6 retail stores and 7 service centers across the nation, we continue
+                     to expand, bringing the latest Apple innovations closer to you.</p>
+                <p>Explore our stores and indulge in the world of Apple. Immerse yourself into Apple, or try out the latest Apple 
+                    accessories. Our knowledgeable Apple experts are always ready to assist you, providing personalized guidance 
+                    and support.</p>
+                <p>As an Apple Authorized Service Provider (AASP), we also take care of your Apple products, service and repair needs.
+                     Our service centers are deployed by Apple-certified and trained professionals to ensure that your devices are in
+                      trusted hands.</p>
+                <p>At LK Tech Hub, we prioritize your satisfaction and aim to deliver a superior retail experience. We believe in the
+                     power of innovation, design, and technology to enhance your digital lifestyle. More than a Million customers trust
+                      us in providing reliable service, and a seamless Apple experience.</p>
+                <p>Join the Millions of satisfied customers who have made LK Tech Hub as their preferred Apple destination. Visit us 
+                    today and elevate your Apple experience to new heights.</p>
+            </div>
+        </div>
+
+
+        <!-- contact -->
+        <div class="contact" id="contact">
+            <p><em>Shop Details</em></p>
+            <div class="contact-details" id="contact-details">  
+                <div class="contact-container2">
+                    <div class="value" id="value">
+                        <pre><b>Phone :</b> +91-9********7</pre>
+                        <pre><b>Landline :</b> 044-2748****</pre>
+                        <pre><b>Email :</b> lktechhub@gmail.com</pre>
+                        <pre><b>Address :</b> Greater Area Chennai,<br/>          Tamil Nadu 600028,<br/>          India.</pre>
+                        <pre><b>Landmark :</b> Near Chennai Central Railway.
+                    </div>
+                </div>
+
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.848533637785!2d80.26299387216565!3d13.085738046534217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265fbe6a909ab%3A0x5a6046dfc9f0d784!2sJawaharlal%20Nehru%20Stadium!5e0!3m2!1sen!2sin!4v1706013316879!5m2!1sen!2sin" height="300" width="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Payments -->
+        <div class="payments">
+            <div class="small-container">
+                <p>Our Payment Partners</p>
+                <p>100% Secured Payment Gateways</p>
+                <div class="row">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/99/mac-os.png" alt="mac-os"/>
+                    <img width="50" height="50" src="https://img.icons8.com/color/50/paytm.png" alt="paytm"/>
+                    <img width="50" height="50" src="https://img.icons8.com/fluency/50/paypal.png" alt="paypal"/>
+                    <img width="50" height="50" src="https://img.icons8.com/color/50/mastercard-logo.png" alt="mastercard-logo"/>
+                    <img width="50" height="50" src="https://img.icons8.com/color/50/google-pay.png" alt="google-pay"/>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- -------footer------ -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our app</h3>
+                        <p>For Better Experience and Offers</p>
+                        <div class="app-logo">
+                            <img width="50" height="50" src="https://img.icons8.com/fluency/50/google-play-store-new.png" alt="google-play-store-new"/>
+                            <img width="50" height="50" src="https://img.icons8.com/color/50/apple-app-store--v3.png" alt="apple-app-store--v3"/>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Shop Timings</h3>
+                            <p>Monday - Friday : </p>
+                            <p>9:00 Am to 8:00 Pm</p>
+                            <p>Saturday & Sunday : </p>
+                            <p>9:00 Am to 9:00 Pm</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Reviews</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&#169; 2024 | All Rights Reserved</p>
+                <p class="copyright"> Designed by Lalith.</p>
+            </div>
+        </div>
+
+        <!-- scroll top button function -->
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+
+</html>
